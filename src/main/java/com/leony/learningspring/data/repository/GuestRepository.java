@@ -1,0 +1,9 @@
+package com.leony.learningspring.data.repository;
+
+import com.leony.learningspring.data.entity.Guest;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface GuestRepository extends CrudRepository<Guest, Long> {
+}
